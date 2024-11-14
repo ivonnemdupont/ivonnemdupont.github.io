@@ -1,2 +1,0 @@
-# ivonnemdupont.github.io
-Portfolio
