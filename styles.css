@@ -1,108 +1,124 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #333;
+    margin: 0;
+    background-color: #f8f9fa;
 }
 
+h1, h2, h3 {
+    color: #007bff;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
-    padding: 40px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 header p {
-    margin: 10px 0 0;
     font-size: 1.2em;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
 }
 
 /* Sección Acerca de Mí */
 .about {
-    background-color: #ffffff;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .about h2 {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.about p {
-    line-height: 1.6;
-    font-size: 1.1em;
+/* Sección Habilidades */
+.skills {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills li {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Sección Proyectos */
 .projects {
-    padding: 40px 0;
-    background-color: #f9f9f9;
+    padding: 50px 0;
 }
 
 .projects h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.project {
-    background-color: #fff;
-    margin: 20px 0;
+.project-card {
+    background-color: #ffffff;
     padding: 20px;
-    border-radius: 5px;
+    margin: 15px 0;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.project h3 {
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
     margin: 0;
-    font-size: 1.8em;
     color: #333;
 }
 
-.project p {
-    font-size: 1.1em;
-    line-height: 1.5;
+.project-card p {
+    font-size: 1em;
+    line-height: 1.6;
 }
 
-.project a {
+.project-card a {
     color: #007bff;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.project a:hover {
+.project-card a:hover {
     text-decoration: underline;
 }
 
-/* Sección de Contacto */
+/* Sección Contacto */
 .contact {
+    background-color: #e9ecef;
     padding: 40px 0;
-    background-color: #ffffff;
-}
-
-.contact h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 .contact ul {
     list-style-type: none;
     padding: 0;
-}
-
-.contact li {
     font-size: 1.1em;
-    margin: 10px 0;
 }
 
 .contact a {
@@ -116,13 +132,9 @@ header p {
 
 /* Pie de página */
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-}
-
-footer p {
-    margin: 0;
+    font-size: 0.9em;
 }
