@@ -1,27 +1,128 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 40px 0;
     text-align: center;
 }
 
-section {
-    padding: 20px;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sección Acerca de Mí */
+.about {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Sección Proyectos */
+.projects {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de Contacto */
+.contact {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
 }
